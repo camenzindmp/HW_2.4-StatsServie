@@ -1,3 +1,4 @@
+
 package ru.netology.stats;
 
 import org.junit.jupiter.api.Test;
@@ -32,7 +33,7 @@ class StatsServiceTest {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 5;
-        long actual = service.SalesPeakMonth(sales);
+        long actual = service.salesPeakMonth(sales);
         assertEquals(expected, actual);
     }
 
@@ -41,7 +42,7 @@ class StatsServiceTest {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 8;
-        long actual = service.MinSalesMonth(sales);
+        long actual = service.minSalesMonth(sales);
         assertEquals(expected, actual);
     }
 
@@ -50,7 +51,7 @@ class StatsServiceTest {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 5; //выше среднего;
-        long actual = service.SalesAboveTheAverage(sales);
+        long actual = service.salesAboveTheAverage(sales);
         assertEquals(expected, actual);
     }
 
@@ -59,7 +60,7 @@ class StatsServiceTest {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 5; //ниже среднего;
-        long actual = service.SalesBelowTheAverage(sales);
+        long actual = service.salesBelowTheAverage(sales);
         assertEquals(expected, actual);
     }
 }

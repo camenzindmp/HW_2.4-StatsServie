@@ -1,3 +1,4 @@
+
 package ru.netology.stats;
 
 public class StatsService {
@@ -12,14 +13,14 @@ public class StatsService {
     }
 
     public long averageSalesSumPerMonth(long[] sales) {
-        long SumToFindAverage = 0;
+        long sumToFindAverage = 0;
         for (long sale : sales) {
-            SumToFindAverage += sale;
+            sumToFindAverage += sale;
         }
-        return SumToFindAverage / 12;
+        return sumToFindAverage / 12;
     }
 
-    public long SalesPeakMonth(long[] sales) {
+    public long salesPeakMonth(long[] sales) {
         long peak = 20;
         long peakCounter = 0;
         for (long sale : sales) {
@@ -32,7 +33,7 @@ public class StatsService {
         return peakCounter;
     }
 
-    public long MinSalesMonth(long[] sales) {
+    public long minSalesMonth(long[] sales) {
         long minSales = 7;
         long minSalesCounter = 0;
         for (long sale : sales) {
@@ -45,26 +46,25 @@ public class StatsService {
         return minSalesCounter;
     }
 
-    public long SalesAboveTheAverage(long[] sales) {
+    public long salesAboveTheAverage(long[] sales) {
         long average = 15;
-        long AboveTheAverageCounter = 0;
+        long aboveTheAverageCounter = 0;
         for (long sale : sales) {
             if (sale > average) {
-                AboveTheAverageCounter = AboveTheAverageCounter + 1;
+                aboveTheAverageCounter = aboveTheAverageCounter + 1;
             }
         }
-        return AboveTheAverageCounter;
+        return aboveTheAverageCounter;
     }
 
-    public long SalesBelowTheAverage(long[] sales) {
+    public long salesBelowTheAverage(long[] sales) {
         long average = 15;
-        long BelowTheAverageCounter = 0;
+        long belowTheAverageCounter = 0;
         for (long sale : sales) {
             if (sale < average) {
-                BelowTheAverageCounter = BelowTheAverageCounter + 1;
+                belowTheAverageCounter = belowTheAverageCounter + 1;
             }
         }
-        return BelowTheAverageCounter;
+        return belowTheAverageCounter;
     }
 }
-
