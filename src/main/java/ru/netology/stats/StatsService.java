@@ -3,25 +3,26 @@ package ru.netology.stats;
 
 public class StatsService {
 
-
     public long calculateSum(long[] sales) {
-        long sumOfSales = 0;
-        for (long sale : sales) {
-            sumOfSales += sale;
+            long sumOfSales = 0;
+            for (long sale : sales) {
+                sumOfSales += sale;
+            }
+            return sumOfSales;
         }
-        return sumOfSales;
-    }
 
     public long averageSalesSumPerMonth(long[] sales) {
-        long sumToFindAverage = 0;
-        for (long sale : sales) {
-            sumToFindAverage += sale;
-        }
-        return sumToFindAverage / 12;
+        long sumOfSales = calculateSum(sales);
+        return sumOfSales / sales.length;
     }
 
     public long salesPeakMonth(long[] sales) {
-        long peak = 20;
+        long peak = sales[0];
+        for (long sale : sales) {
+            if (peak < sale) {
+                peak = sale;
+            }
+        }
         long peakCounter = 0;
         for (long sale : sales) {
             if (sale < peak) {
@@ -34,7 +35,12 @@ public class StatsService {
     }
 
     public long minSalesMonth(long[] sales) {
-        long minSales = 7;
+        long minSales = sales[0];
+        for (long sale : sales) {
+            if (minSales > sale) {
+                minSales = sale;
+            }
+        }
         long minSalesCounter = 0;
         for (long sale : sales) {
             if (sale > minSales) {
@@ -47,7 +53,7 @@ public class StatsService {
     }
 
     public long salesAboveTheAverage(long[] sales) {
-        long average = 15;
+        long average = averageSalesSumPerMonth(sales);
         long aboveTheAverageCounter = 0;
         for (long sale : sales) {
             if (sale > average) {
@@ -58,7 +64,7 @@ public class StatsService {
     }
 
     public long salesBelowTheAverage(long[] sales) {
-        long average = 15;
+        long average = averageSalesSumPerMonth(sales);
         long belowTheAverageCounter = 0;
         for (long sale : sales) {
             if (sale < average) {

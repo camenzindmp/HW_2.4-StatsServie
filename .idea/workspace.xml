@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e51ac30-2e52-43c0-af6a-809c26ac1217" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -28,13 +26,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ru/netology/stats" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -95,22 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsServiceTest.SalesBelowTheAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="statistics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.stats.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.stats" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
-      <option name="METHOD_NAME" value="SalesBelowTheAverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StatsServiceTest.SalesPeakMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
@@ -127,13 +110,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatsServiceTest.averageSalesSumPerMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statistics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
+      <option name="METHOD_NAME" value="averageSalesSumPerMonth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StatsServiceTest" />
+        <item itemvalue="JUnit.StatsServiceTest.averageSalesSumPerMonth" />
         <item itemvalue="JUnit.StatsServiceTest.SalesPeakMonth" />
         <item itemvalue="JUnit.StatsServiceTest.MinSalesMonth" />
         <item itemvalue="JUnit.StatsServiceTest.SalesAboveTheAverage" />
-        <item itemvalue="JUnit.StatsServiceTest.SalesBelowTheAverage" />
       </list>
     </recent_temporary>
   </component>
@@ -151,46 +150,66 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1588566543242">
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589005052436">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588566543242" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1588566543242">
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1589005052436" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1588567051819">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588566543242" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1588566543241">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588567051819" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1589012526039">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588566543241" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1588566543242">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589012526039" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1589012526039">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588566543242" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1588566543242">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589012526039" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1589012526039">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588566543242" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1588566543242">
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589012526039" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1589012526039">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1588566543242" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1588566543242">
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589012526039" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589012526039">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1588566543242" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1588566543242">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589012526039" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1589012526039">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1588566543242" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589012526039" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1589012526039">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589012526039" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1589012526039">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589012526039" />
     <state x="249" y="6" key="SettingsEditor" timestamp="1587638202096">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1587638202096" />
+    <state x="584" y="210" key="chooseDestDirectoryDialog" timestamp="1589005430846">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="584" y="210" key="chooseDestDirectoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1589005430846" />
     <state x="540" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587630693533">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="540" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1587630693533" />
+    <state x="209" y="127" key="new project wizard" timestamp="1588567002070">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="127" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1588567002070" />
+    <state x="475" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1589013059804">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="475" y="189" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1589013059804" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1587637538383">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
