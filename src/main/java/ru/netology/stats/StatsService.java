@@ -4,16 +4,16 @@ package ru.netology.stats;
 public class StatsService {
 
     public long calculateSum(long[] sales) {
-            long sumOfSales = 0;
+            long salesSum = 0;
             for (long sale : sales) {
-                sumOfSales += sale;
+                salesSum += sale;
             }
-            return sumOfSales;
+            return salesSum;
         }
 
-    public long averageSalesSumPerMonth(long[] sales) {
-        long sumOfSales = calculateSum(sales);
-        return sumOfSales / sales.length;
+    public long findAverageSalesSum(long[] sales) {
+        long salesSum = calculateSum(sales);
+        return salesSum / sales.length;
     }
 
     public long salesPeakMonth(long[] sales) {
@@ -53,7 +53,7 @@ public class StatsService {
     }
 
     public long salesAboveTheAverage(long[] sales) {
-        long average = averageSalesSumPerMonth(sales);
+        long average = findAverageSalesSum(sales);
         long aboveTheAverageCounter = 0;
         for (long sale : sales) {
             if (sale > average) {
@@ -64,7 +64,7 @@ public class StatsService {
     }
 
     public long salesBelowTheAverage(long[] sales) {
-        long average = averageSalesSumPerMonth(sales);
+        long average = findAverageSalesSum(sales);
         long belowTheAverageCounter = 0;
         for (long sale : sales) {
             if (sale < average) {
