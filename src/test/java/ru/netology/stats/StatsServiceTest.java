@@ -19,7 +19,7 @@ class StatsServiceTest {
 
     @Test
         //Тест для значения средней суммы продаж в месяц;
-    void averageSalesSumPerMonth() {
+    void findAverageSalesSum() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 15;
@@ -29,20 +29,20 @@ class StatsServiceTest {
 
     @Test
         //Тест для значения месяца, в котором был пик продаж
-    void SalesPeakMonth() {
+    void findSalesPeak() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 5;
-        long actual = service.salesPeakMonth(sales);
+        long actual = service.findSalesPeakMonth(sales);
         assertEquals(expected, actual);
     }
 
     @Test
-    void MinSalesMonth() {
+    void findMinSalesMonth() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 8;
-        long actual = service.minSalesMonth(sales);
+        long actual = service.findMinSalesMonth(sales);
         assertEquals(expected, actual);
     }
 
@@ -51,7 +51,7 @@ class StatsServiceTest {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 5; //выше среднего;
-        long actual = service.salesAboveTheAverage(sales);
+        long actual = service.findSalesAboveTheAverage(sales);
         assertEquals(expected, actual);
     }
 
@@ -60,7 +60,7 @@ class StatsServiceTest {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long expected = 5; //ниже среднего;
-        long actual = service.salesBelowTheAverage(sales);
+        long actual = service.findSalesBelowTheAverage(sales);
         assertEquals(expected, actual);
     }
 }

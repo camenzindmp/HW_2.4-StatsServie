@@ -129,9 +129,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StatsServiceTest" />
-        <item itemvalue="JUnit.StatsServiceTest.averageSalesSumPerMonth" />
         <item itemvalue="JUnit.StatsServiceTest.SalesPeakMonth" />
         <item itemvalue="JUnit.StatsServiceTest.MinSalesMonth" />
+        <item itemvalue="JUnit.StatsServiceTest.averageSalesSumPerMonth" />
         <item itemvalue="JUnit.StatsServiceTest.SalesAboveTheAverage" />
       </list>
     </recent_temporary>
@@ -158,38 +158,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588567051819" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1589016422660">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1589021752802">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589016422660" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1589016422660">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1589021752801">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589016422660" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1589016422659">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589021752801" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1589021752801">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589016422659" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1589016422660">
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589021752801" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1589021752802">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589016422660" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589016423382">
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589021752802">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589016423382" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1589016423382">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1589021752802">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589016423382" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1589016423382">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1589021752802">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589016423382" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1589016423382">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1589021752802">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589016423382" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
     <state x="249" y="6" key="SettingsEditor" timestamp="1587638202096">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -214,5 +214,31 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1587637538383" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

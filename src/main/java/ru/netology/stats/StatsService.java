@@ -16,7 +16,7 @@ public class StatsService {
         return salesSum / sales.length;
     }
 
-    public long salesPeakMonth(long[] sales) {
+    public long findSalesPeakMonth(long[] sales) {
         long peak = sales[0];
         for (long sale : sales) {
             if (peak < sale) {
@@ -34,7 +34,7 @@ public class StatsService {
         return peakCounter;
     }
 
-    public long minSalesMonth(long[] sales) {
+    public long findMinSalesMonth(long[] sales) {
         long minSales = sales[0];
         for (long sale : sales) {
             if (minSales > sale) {
@@ -52,7 +52,7 @@ public class StatsService {
         return minSalesCounter;
     }
 
-    public long salesAboveTheAverage(long[] sales) {
+    public long findSalesAboveTheAverage(long[] sales) {
         long average = findAverageSalesSum(sales);
         long aboveTheAverageCounter = 0;
         for (long sale : sales) {
@@ -63,7 +63,7 @@ public class StatsService {
         return aboveTheAverageCounter;
     }
 
-    public long salesBelowTheAverage(long[] sales) {
+    public long findSalesBelowTheAverage(long[] sales) {
         long average = findAverageSalesSum(sales);
         long belowTheAverageCounter = 0;
         for (long sale : sales) {
