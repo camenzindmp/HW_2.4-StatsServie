@@ -4,12 +4,12 @@ package ru.netology.stats;
 public class StatsService {
 
     public long calculateSum(long[] sales) {
-            long salesSum = 0;
-            for (long sale : sales) {
-                salesSum += sale;
-            }
-            return salesSum;
+        long salesSum = 0;
+        for (long sale : sales) {
+            salesSum += sale;
         }
+        return salesSum;
+    }
 
     public long findAverageSalesSum(long[] sales) {
         long salesSum = calculateSum(sales);
@@ -18,38 +18,30 @@ public class StatsService {
 
     public long findSalesPeakMonth(long[] sales) {
         long peak = sales[0];
-        for (long sale : sales) {
-            if (peak < sale) {
-                peak = sale;
-            }
-        }
         long peakCounter = 0;
+        long peakIndex = 0;
         for (long sale : sales) {
-            if (sale < peak) {
-                peakCounter = peakCounter + 1;
-            } else {
-                return peakCounter;
+            peakCounter++;
+            if (peak <= sale) {
+                peak = sale;
+                peakIndex = peakCounter;
             }
         }
-        return peakCounter;
+        return peakIndex;
     }
 
     public long findMinSalesMonth(long[] sales) {
         long minSales = sales[0];
+        long minCounter = 0;
+        long minIndex = 0;
         for (long sale : sales) {
+            minCounter++;
             if (minSales > sale) {
                 minSales = sale;
+                minIndex = minCounter;
             }
         }
-        long minSalesCounter = 0;
-        for (long sale : sales) {
-            if (sale > minSales) {
-                minSalesCounter = minSalesCounter + 1;
-            } else {
-                return minSalesCounter;
-            }
-        }
-        return minSalesCounter;
+        return minIndex;
     }
 
     public long findSalesAboveTheAverage(long[] sales) {
@@ -57,7 +49,7 @@ public class StatsService {
         long aboveTheAverageCounter = 0;
         for (long sale : sales) {
             if (sale > average) {
-                aboveTheAverageCounter = aboveTheAverageCounter + 1;
+                aboveTheAverageCounter++;
             }
         }
         return aboveTheAverageCounter;
@@ -68,7 +60,7 @@ public class StatsService {
         long belowTheAverageCounter = 0;
         for (long sale : sales) {
             if (sale < average) {
-                belowTheAverageCounter = belowTheAverageCounter + 1;
+                belowTheAverageCounter++;
             }
         }
         return belowTheAverageCounter;

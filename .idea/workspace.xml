@@ -94,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsServiceTest.SalesPeakMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatsServiceTest.SalesBelowTheAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.stats" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
-      <option name="METHOD_NAME" value="SalesPeakMonth" />
+      <option name="METHOD_NAME" value="SalesBelowTheAverage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsServiceTest.averageSalesSumPerMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatsServiceTest.SalesPeak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +120,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.stats" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
-      <option name="METHOD_NAME" value="averageSalesSumPerMonth" />
+      <option name="METHOD_NAME" value="SalesPeak" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,9 +129,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StatsServiceTest" />
-        <item itemvalue="JUnit.StatsServiceTest.SalesPeakMonth" />
+        <item itemvalue="JUnit.StatsServiceTest.SalesPeak" />
         <item itemvalue="JUnit.StatsServiceTest.MinSalesMonth" />
-        <item itemvalue="JUnit.StatsServiceTest.averageSalesSumPerMonth" />
+        <item itemvalue="JUnit.StatsServiceTest.SalesBelowTheAverage" />
         <item itemvalue="JUnit.StatsServiceTest.SalesAboveTheAverage" />
       </list>
     </recent_temporary>
@@ -158,38 +158,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588567051819" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1589021752802">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1589107786561">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1589021752801">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589107786561" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1589107786561">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589021752801" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1589021752801">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589107786561" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1589107786561">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589021752801" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1589021752802">
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589107786561" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1589107786561">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589021752802">
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589107786561" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589107787293">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1589021752802">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589107787293" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1589107787293">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1589021752802">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589107787293" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1589107787293">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1589021752802">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589107787293" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1589107787293">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589021752802" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589107787293" />
     <state x="249" y="6" key="SettingsEditor" timestamp="1587638202096">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -214,31 +214,5 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1587637538383" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
